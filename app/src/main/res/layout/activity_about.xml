@@ -1,0 +1,108 @@
+<!-- res/layout/activity_about.xml -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:onClick="onBackButtonClick"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About GraphoGame Kannada"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to GraphoGame Kannada, an engaging and educational app designed to help users improve their Kannada letter recognition and pronunciation skills. This app is perfect for learners of all ages, especially those who want to enhance their proficiency in Kannada script."
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/keyFeaturesTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Key Features"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/keyFeaturesTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Interactive Learning: Explore multiple levels of interactive games designed to reinforce your understanding of Kannada letters.\n\n- Pronunciation Practice: Listen to the authentic pronunciation of Kannada letters and match them with the correct visual representation.\n\n- Progressive Difficulty: Challenge yourself with progressively challenging levels, each designed to build on your existing knowledge.\n\n- User-Friendly Interface: Enjoy a user-friendly and visually appealing interface that makes learning Kannada letters a fun and immersive experience."
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/howToPlayTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Play"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/howToPlayTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Choose a level and listen to the pronunciation of a Kannada letter.\n\n2. Identify the correct letter from a set of options provided.\n\n3. Test your knowledge and advance through levels to become a Kannada script master!"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/developerTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developer"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/developerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GraphoGame Kannada is developed by [Your Company/Your Name], dedicated to creating educational apps that make learning languages enjoyable."
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/contactTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/contactTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We value your feedback! If you have any questions, suggestions, or concerns, please feel free to reach out to us at [your@email.com]."
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

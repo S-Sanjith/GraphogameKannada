@@ -1,0 +1,138 @@
+<!-- res/layout/activity_levels.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:contentDescription="@string/back_arrow_str"
+        android:onClick="onBackButtonClick"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/levelsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a Level"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <ImageButton
+        android:id="@+id/level1btn"
+        android:layout_width="157dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/level_1"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelsTitle"
+        app:layout_constraintVertical_bias="0.039"
+        app:srcCompat="@drawable/level_1" />
+
+    <ImageButton
+        android:id="@+id/level2btn"
+        android:layout_width="157dp"
+        android:layout_height="58dp"
+        android:contentDescription="@string/level_2"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/levelsTitle"
+        app:layout_constraintVertical_bias="0.094"
+        app:srcCompat="@drawable/level_2" />
+
+    <ImageButton
+        android:id="@+id/level3btn"
+        android:layout_width="157dp"
+        android:layout_height="58dp"
+        android:contentDescription="@string/level_1"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level1btn"
+        app:layout_constraintVertical_bias="0.112"
+        app:srcCompat="@drawable/level_3" />
+
+    <ImageButton
+        android:id="@+id/level4btn"
+        android:layout_width="157dp"
+        android:layout_height="58dp"
+        android:contentDescription="@string/level_2"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level2btn"
+        app:layout_constraintVertical_bias="0.112"
+        app:srcCompat="@drawable/level_4" />
+
+    <ImageButton
+        android:id="@+id/level5btn"
+        android:layout_width="157dp"
+        android:layout_height="58dp"
+        android:contentDescription="@string/level_1"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level3btn"
+        app:layout_constraintVertical_bias="0.142"
+        app:srcCompat="@drawable/level_5" />
+
+    <ImageButton
+        android:id="@+id/level6btn"
+        android:layout_width="157dp"
+        android:layout_height="58dp"
+        android:contentDescription="@string/level_2"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level4btn"
+        app:layout_constraintVertical_bias="0.142"
+        app:srcCompat="@drawable/level_6" />
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

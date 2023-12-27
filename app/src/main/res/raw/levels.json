@@ -1,0 +1,40 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "soundResourceId": "level_1",
+      "correctAnswer": "ಇ",
+      "options": ["ಅ", "ಇ", "ಎ"]
+    },
+    {
+      "level": 2,
+      "soundResourceId": "level_2",
+      "correctAnswer": "ಒ",
+      "options": ["ಉ", "ಒ", "ಏ"]
+    },
+    {
+      "level": 3,
+      "soundResourceId": "level_3",
+      "correctAnswer": "ಎ",
+      "options": ["ಋ", "ಇ", "ಎ"]
+    },
+    {
+      "level": 4,
+      "soundResourceId": "level_4",
+      "correctAnswer": "ಐ",
+      "options": ["ಉ", "ಐ", "ಏ"]
+    },
+    {
+      "level": 5,
+      "soundResourceId": "level_5",
+      "correctAnswer": "ಓ",
+      "options": ["ಓ", "ಇ", "ಎ"]
+    },
+    {
+      "level": 6,
+      "soundResourceId": "level_6",
+      "correctAnswer": "ಔ",
+      "options": ["ಉ", "ಔ", "ಏ"]
+    }
+  ]
+}
